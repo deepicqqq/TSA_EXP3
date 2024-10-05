@@ -1,5 +1,6 @@
+NAME:DEEPIKA P\
+REG NO:212223240024
 # Ex.No: 03   COMPUTE THE AUTO FUNCTION(ACF)
-Date: 
 
 ### AIM:
 To Compute the Auto Correlation Function (ACF) of the data i Daily Delhi climate test  for the first 35 lags to determine the model type to fit the data.
@@ -14,21 +15,21 @@ To Compute the Auto Correlation Function (ACF) of the data i Daily Delhi climate
 import pandas as pd
 
 # Load the dataset
-file_path = '/mnt/data/DailyDelhiClimateTest.csv'
+file_path = '/mnt/data/DailyDelhiClimateTest.csv'\
 data = pd.read_csv(file_path)
 
 # Display the first few rows of the data to understand its structure
-data.head()
-import matplotlib.pyplot as plt
+data.head()\
+import matplotlib.pyplot as plt\
 from statsmodels.graphics.tsaplots import plot_acf
 
 # Extracting the meantemp column for ACF computation
 meantemp = data['meantemp']
 
 # Plotting ACF for the first 35 lags
-plt.figure(figsize=(10,6))
-plot_acf(meantemp, lags=35)
-plt.title('Autocorrelation Function (ACF) for Mean Temperature')
+plt.figure(figsize=(10,6))\
+plot_acf(meantemp, lags=35)\
+plt.title('Autocorrelation Function (ACF) for Mean Temperature')\
 plt.show()
 
 
