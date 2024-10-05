@@ -38,4 +38,4 @@ plt.show()
 ![Screenshot 2024-10-05 081752](https://github.com/user-attachments/assets/a6aeb285-98b2-441f-b77c-d6bcff4881eb)
 
 ### RESULT:
-        Thus we have successfully implemented the auto correlation function in python.
+        Thus we have successfully implemented the auto correlation function for Daily Delhi climate test in python.
